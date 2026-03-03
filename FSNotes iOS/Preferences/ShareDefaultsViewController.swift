@@ -5,36 +5,88 @@
 //  Created by Codex on 3/3/26.
 //
 
-import UIKit
+import SwiftUI
 
-final class ShareDefaultsViewController: UITableViewController {
+final class ShareDefaultsViewController: UIHostingController<ShareDefaultsRootView> {
+    init() {
+        super.init(rootView: ShareDefaultsRootView())
+    }
 
-    private enum Row: Int, CaseIterable {
-        case project
-        case tags
+    @MainActor required dynamic init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder, rootView: ShareDefaultsRootView())
+    }
+}
 
-        var title: String {
-            switch self {
-            case .project:
-                return NSLocalizedString("Project", comment: "Share defaults")
-            case .tags:
-                return NSLocalizedString("Tags", comment: "Share defaults")
+private struct ShareDefaultsRootView: View {
+    @State private var projects: [Project] = []
+    @State private var selectedProject: Project?
+    @State private var tagsInput: String = UserDefaultsManagement.shareLastTags
+    @State private var showNoProjectsAlert = false
+
+    var body: some View {
+        List {
+            Section {
+                if projects.isEmpty {
+                    Button {
+                        showNoProjectsAlert = true
+                    } label: {
+                        HStack {
+                            Text("Project")
+                            Spacer()
+                            Text("No projects found")
+                                .foregroundColor(.secondary)
+                        }
+                    }
+                } else {
+                    NavigationLink {
+                        ShareDefaultsProjectPickerView(
+                            projects: projects,
+                            selectedProject: $selectedProject
+                        )
+                    } label: {
+                        HStack {
+                            Text("Project")
+                            Spacer()
+                            Text(currentProjectLabel)
+                                .foregroundColor(.secondary)
+                        }
+                    }
+                }
+
+                NavigationLink {
+                    ShareDefaultsTagsView(tagsInput: $tagsInput)
+                } label: {
+                    HStack {
+                        Text("Tags")
+                        Spacer()
+                        Text(tagsInput.isEmpty ? "Optional" : tagsInput)
+                            .foregroundColor(.secondary)
+                    }
+                }
             }
+        }
+        .navigationTitle(Text("Share Defaults"))
+        .onAppear {
+            reloadProjects()
+            if selectedProject == nil {
+                selectedProject = initialProject()
+            }
+        }
+        .onChange(of: selectedProject) { newValue in
+            UserDefaultsManagement.shareLastProjectURL = newValue?.url
+        }
+        .onChange(of: tagsInput) { newValue in
+            UserDefaultsManagement.shareLastTags = newValue
+        }
+        .alert("No Projects", isPresented: $showNoProjectsAlert) {
+            Button("OK", role: .cancel) { }
+        } message: {
+            Text("Create a project in FSNotes to enable sharing.")
         }
     }
 
-    private var projects: [Project] = []
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        title = NSLocalizedString("Share Defaults", comment: "Settings")
-        tableView.tableFooterView = UIView()
-    }
-
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        reloadProjects()
-        tableView.reloadData()
+    private var currentProjectLabel: String {
+        return selectedProject?.label ?? (Storage.shared().getDefault()?.label ?? "Inbox")
     }
 
     private func reloadProjects() {
@@ -43,131 +95,60 @@ final class ShareDefaultsViewController: UITableViewController {
         projects.sort { $0.label.localizedCaseInsensitiveCompare($1.label) == .orderedAscending }
     }
 
-    private func currentProject() -> Project? {
+    private func initialProject() -> Project? {
         if let url = UserDefaultsManagement.shareLastProjectURL,
            let found = projects.first(where: { $0.url == url }) {
             return found
         }
         return Storage.shared().getDefault()
     }
+}
 
-    private func currentTags() -> String {
-        return UserDefaultsManagement.shareLastTags
-    }
+private struct ShareDefaultsProjectPickerView: View {
+    let projects: [Project]
+    @Binding var selectedProject: Project?
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return Row.allCases.count
-    }
-
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .value1, reuseIdentifier: nil)
-        guard let row = Row(rawValue: indexPath.row) else { return cell }
-
-        cell.textLabel?.text = row.title
-        cell.accessoryType = .disclosureIndicator
-
-        switch row {
-        case .project:
-            cell.detailTextLabel?.text = currentProject()?.label ?? NSLocalizedString("Inbox", comment: "")
-        case .tags:
-            let tags = currentTags()
-            cell.detailTextLabel?.text = tags.isEmpty ? NSLocalizedString("Optional", comment: "") : tags
-        }
-
-        return cell
-    }
-
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        defer { tableView.deselectRow(at: indexPath, animated: true) }
-        guard let row = Row(rawValue: indexPath.row) else { return }
-
-        switch row {
-        case .project:
-            if projects.isEmpty {
-                showNoProjectsAlert()
-                return
+    var body: some View {
+        List {
+            ForEach(projects, id: \.url) { project in
+                Button {
+                    selectedProject = project
+                } label: {
+                    HStack {
+                        Text(project.label)
+                        Spacer()
+                        if selectedProject == project {
+                            Image(systemName: "checkmark")
+                                .foregroundColor(.accentColor)
+                        }
+                    }
+                }
             }
-            let controller = ShareDefaultsProjectPickerViewController(
-                projects: projects,
-                selectedProject: currentProject()
-            )
-            controller.onSelect = { [weak self] project in
-                UserDefaultsManagement.shareLastProjectURL = project?.url
-                self?.tableView.reloadData()
-            }
-            navigationController?.pushViewController(controller, animated: true)
-        case .tags:
-            showTagsInput()
         }
-    }
-
-    private func showTagsInput() {
-        let alert = UIAlertController(
-            title: NSLocalizedString("Tags", comment: "Share defaults"),
-            message: NSLocalizedString("Separate tags with spaces or commas.", comment: "Share defaults"),
-            preferredStyle: .alert
-        )
-        alert.addTextField { field in
-            field.text = self.currentTags()
-            field.autocapitalizationType = .none
-            field.autocorrectionType = .no
-            field.placeholder = NSLocalizedString("e.g. work, urgent", comment: "Share defaults")
-        }
-        alert.addAction(UIAlertAction(title: NSLocalizedString("Cancel", comment: ""), style: .cancel, handler: nil))
-        alert.addAction(UIAlertAction(title: NSLocalizedString("Save", comment: ""), style: .default, handler: { _ in
-            let text = alert.textFields?.first?.text ?? ""
-            UserDefaultsManagement.shareLastTags = text
-            self.tableView.reloadData()
-        }))
-        present(alert, animated: true, completion: nil)
-    }
-
-    private func showNoProjectsAlert() {
-        let alert = UIAlertController(
-            title: NSLocalizedString("No Projects", comment: ""),
-            message: NSLocalizedString("Create a project in FSNotes to enable sharing.", comment: ""),
-            preferredStyle: .alert
-        )
-        alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: ""), style: .default, handler: nil))
-        present(alert, animated: true, completion: nil)
+        .navigationTitle(Text("Choose Project"))
     }
 }
 
-private final class ShareDefaultsProjectPickerViewController: UITableViewController {
-    private let projects: [Project]
-    private var selectedProject: Project?
-    var onSelect: ((Project?) -> Void)?
+private struct ShareDefaultsTagsView: View {
+    @Environment(\.dismiss) private var dismiss
+    @Binding var tagsInput: String
 
-    init(projects: [Project], selectedProject: Project?) {
-        self.projects = projects
-        self.selectedProject = selectedProject
-        super.init(style: .insetGrouped)
-        title = NSLocalizedString("Choose Project", comment: "Share defaults")
-    }
-
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return projects.count
-    }
-
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
-        let project = projects[indexPath.row]
-        cell.textLabel?.text = project.label
-        cell.accessoryType = project == selectedProject ? .checkmark : .none
-        return cell
-    }
-
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        selectedProject = projects[indexPath.row]
-        onSelect?(selectedProject)
-        navigationController?.popViewController(animated: true)
+    var body: some View {
+        Form {
+            Section {
+                TextField("e.g. work, urgent", text: $tagsInput)
+                    .autocapitalization(.none)
+                    .disableAutocorrection(true)
+            } footer: {
+                Text("Separate tags with spaces or commas.")
+            }
+        }
+        .navigationTitle(Text("Tags"))
+        .toolbar {
+            ToolbarItem(placement: .confirmationAction) {
+                Button("Done") { dismiss() }
+            }
+        }
     }
 }
+

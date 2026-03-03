@@ -357,27 +357,13 @@ class ShareViewController: SLComposeServiceViewController {
     }
 
     private func appendTagsIfNeeded(to note: Note) {
-        let tags = normalizedTags(from: tagsInput)
+        let tags = ShareTagNormalizer.normalizedTags(from: tagsInput)
         guard !tags.isEmpty else { return }
 
-        let tagsLine = tags.map { "#\($0)" }.joined(separator: " ")
+        let tagsLine = ShareTagNormalizer.tagsLine(for: tags)
         let prefix = note.content.length == 0 ? "" : "\n\n"
         note.append(string: NSMutableAttributedString(string: "\(prefix)\(tagsLine)"))
         note.tags = tags
-    }
-
-    private func normalizedTags(from input: String) -> [String] {
-        let trimmed = input.trimmingCharacters(in: .whitespacesAndNewlines)
-        guard !trimmed.isEmpty else { return [] }
-
-        let parts = trimmed.split { $0.isWhitespace || $0 == "," }
-        var tags: [String] = []
-        for raw in parts {
-            let cleaned = raw.trimmingCharacters(in: CharacterSet(charactersIn: "#"))
-            if cleaned.isEmpty { continue }
-            tags.append(cleaned)
-        }
-        return tags
     }
 
     private func closeExtension() {
