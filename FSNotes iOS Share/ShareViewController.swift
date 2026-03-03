@@ -19,11 +19,37 @@ class ShareViewController: SLComposeServiceViewController {
     private var hasImages = false
     private var urlPreview: String?
 
+    /// The project the user has chosen (nil = default)
+    private var selectedProject: Project?
+
+    /// Sorted, non-trash projects available for selection
+    private lazy var availableProjects: [Project] = {
+        let storage = Storage.shared()
+        return storage.getProjects()
+            .filter { !$0.isTrash && !$0.isVirtual }
+            .sorted { $0.getFullLabel() < $1.getFullLabel() }
+    }()
+
     // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        restoreLastSelections()
         configureNavigationBar()
+    }
+
+    // MARK: - Restore last selections
+
+    private func restoreLastSelections() {
+        // Restore last project
+        if let lastURL = UserDefaultsManagement.shareLastProjectURL {
+            selectedProject = availableProjects.first(where: { $0.url == lastURL })
+        }
+
+        // Default to the default project if nothing remembered or projects changed
+        if selectedProject == nil {
+            selectedProject = Storage.shared().getDefault()
+        }
     }
 
     // MARK: - Configuration
@@ -120,6 +146,103 @@ class ShareViewController: SLComposeServiceViewController {
         }
     }
 
+    // MARK: - Configuration Items (Project + Tags)
+
+    override func configurationItems() -> [Any]! {
+        var items = [SLComposeSheetConfigurationItem]()
+
+        // Project picker
+        let projectItem = SLComposeSheetConfigurationItem()!
+        projectItem.title = NSLocalizedString("Project", comment: "Share extension project picker")
+        projectItem.value = selectedProject?.getFullLabel() ?? NSLocalizedString("Default", comment: "")
+        projectItem.tapHandler = { [weak self] in
+            self?.presentProjectPicker()
+        }
+        items.append(projectItem)
+
+        // Tags input
+        let tagsItem = SLComposeSheetConfigurationItem()!
+        tagsItem.title = NSLocalizedString("Tags", comment: "Share extension tags input")
+        tagsItem.value = UserDefaultsManagement.shareLastTags
+        tagsItem.tapHandler = { [weak self] in
+            self?.presentTagsInput()
+        }
+        items.append(tagsItem)
+
+        return items
+    }
+
+    // MARK: - Project Picker
+
+    private func presentProjectPicker() {
+        let alert = UIAlertController(
+            title: NSLocalizedString("Choose Project", comment: ""),
+            message: nil,
+            preferredStyle: .actionSheet
+        )
+
+        if availableProjects.isEmpty {
+            alert.message = NSLocalizedString("No projects found. Notes will be saved in the default location.", comment: "")
+        } else {
+            for project in availableProjects {
+                let action = UIAlertAction(title: project.getFullLabel(), style: .default) { [weak self] _ in
+                    guard let self = self else { return }
+                    self.selectedProject = project
+                    UserDefaultsManagement.shareLastProjectURL = project.url
+                    self.reloadConfigurationItems()
+                }
+                if project == selectedProject {
+                    action.setValue(true, forKey: "checked")
+                }
+                alert.addAction(action)
+            }
+        }
+
+        alert.addAction(UIAlertAction(title: NSLocalizedString("Cancel", comment: ""), style: .cancel))
+
+        // iPad popover support
+        if let popover = alert.popoverPresentationController {
+            popover.sourceView = view
+            popover.sourceRect = CGRect(x: view.bounds.midX, y: view.bounds.midY, width: 0, height: 0)
+            popover.permittedArrowDirections = []
+        }
+
+        present(alert, animated: true)
+    }
+
+    // MARK: - Tags Input
+
+    private func presentTagsInput() {
+        let alert = UIAlertController(
+            title: NSLocalizedString("Add Tags", comment: ""),
+            message: NSLocalizedString("Enter comma-separated tags (e.g. work, ideas)", comment: ""),
+            preferredStyle: .alert
+        )
+
+        alert.addTextField { textField in
+            textField.text = UserDefaultsManagement.shareLastTags
+            textField.placeholder = NSLocalizedString("work, ideas, inbox", comment: "")
+            textField.autocorrectionType = .no
+            textField.autocapitalizationType = .none
+            textField.clearButtonMode = .whileEditing
+        }
+
+        let saveAction = UIAlertAction(title: NSLocalizedString("Save", comment: ""), style: .default) { [weak self] _ in
+            guard let self = self else { return }
+            let raw = alert.textFields?.first?.text ?? ""
+            let cleaned = raw.trimmingCharacters(in: .whitespacesAndNewlines)
+            UserDefaultsManagement.shareLastTags = cleaned
+            self.reloadConfigurationItems()
+        }
+
+        let cancelAction = UIAlertAction(title: NSLocalizedString("Cancel", comment: ""), style: .cancel)
+
+        alert.addAction(saveAction)
+        alert.addAction(cancelAction)
+
+        present(alert, animated: true)
+    }
+
     // MARK: - Validation & Post
 
     override func isContentValid() -> Bool {
@@ -128,10 +251,6 @@ class ShareViewController: SLComposeServiceViewController {
 
     override func didSelectPost() {
         saveNote()
-    }
-
-    override func configurationItems() -> [Any]! {
-        return []
     }
 
     // MARK: - Save Note
@@ -147,7 +266,8 @@ class ShareViewController: SLComposeServiceViewController {
     }
 
     private func createNote() -> Note {
-        let note = Note()
+        let project = selectedProject ?? Storage.shared().getDefault()!
+        let note = Note(project: project)
         Storage.shared().add(note)
 
         var urls = UserDefaultsManagement.importURLs
@@ -155,6 +275,20 @@ class ShareViewController: SLComposeServiceViewController {
         UserDefaultsManagement.importURLs = urls
 
         return note
+    }
+
+    private func applyTags(to note: Note) {
+        let tagsString = UserDefaultsManagement.shareLastTags
+        guard !tagsString.isEmpty else { return }
+
+        let tags = tagsString
+            .components(separatedBy: ",")
+            .map { $0.trimmingCharacters(in: .whitespacesAndNewlines) }
+            .filter { !$0.isEmpty }
+
+        for tag in tags {
+            note.addTag(tag)
+        }
     }
 
     private func appendTextContent(to note: Note) {
@@ -263,6 +397,7 @@ class ShareViewController: SLComposeServiceViewController {
     }
 
     private func finalizeNoteSave(_ note: Note) {
+        applyTags(to: note)
         if note.saveSimple() {
             Storage.shared().add(note)
         }

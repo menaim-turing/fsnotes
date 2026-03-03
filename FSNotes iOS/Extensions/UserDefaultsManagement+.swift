@@ -20,6 +20,8 @@ extension UserDefaultsManagement {
         static let editorState = "editorState"
         static let editorSuggestions = "editorSuggestions"
         static let ImportURLsKey = "ImportURLs"
+        static let shareLastProjectURL = "shareLastProjectURL"
+        static let shareLastTags = "shareLastTags"
     }
 
     static var appIcon: Int {
@@ -199,6 +201,30 @@ extension UserDefaultsManagement {
             if let data = try? NSKeyedArchiver.archivedData(withRootObject: newValue, requiringSecureCoding: true) {
                 defaults.set(data, forKey: Constants.ImportURLsKey)
             }
+        }
+    }
+
+    /// Last project URL chosen in the Share Extension
+    static var shareLastProjectURL: URL? {
+        get {
+            guard let defaults = UserDefaults(suiteName: "group.es.fsnot.user.defaults") else { return nil }
+            return defaults.url(forKey: Constants.shareLastProjectURL)
+        }
+        set {
+            guard let defaults = UserDefaults(suiteName: "group.es.fsnot.user.defaults") else { return }
+            defaults.set(newValue, forKey: Constants.shareLastProjectURL)
+        }
+    }
+
+    /// Last tags string entered in the Share Extension (comma-separated)
+    static var shareLastTags: String {
+        get {
+            guard let defaults = UserDefaults(suiteName: "group.es.fsnot.user.defaults") else { return "" }
+            return defaults.string(forKey: Constants.shareLastTags) ?? ""
+        }
+        set {
+            guard let defaults = UserDefaults(suiteName: "group.es.fsnot.user.defaults") else { return }
+            defaults.set(newValue, forKey: Constants.shareLastTags)
         }
     }
 

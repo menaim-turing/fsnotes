@@ -1,6 +1,21 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Add Tags" : {
+
+    },
+    "Cancel" : {
+
+    },
+    "Choose Project" : {
+
+    },
+    "Default" : {
+
+    },
+    "Enter comma-separated tags (e.g. work, ideas)" : {
+
+    },
     "Inbox" : {
       "localizations" : {
         "cs" : {
@@ -116,6 +131,21 @@
           }
         }
       }
+    },
+    "No projects found. Notes will be saved in the default location." : {
+
+    },
+    "Project" : {
+      "comment" : "Share extension project picker"
+    },
+    "Save" : {
+
+    },
+    "Tags" : {
+      "comment" : "Share extension tags input"
+    },
+    "work, ideas, inbox" : {
+
     }
   },
   "version" : "1.0"
