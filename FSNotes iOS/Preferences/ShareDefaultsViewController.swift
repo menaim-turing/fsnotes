@@ -17,7 +17,7 @@ final class ShareDefaultsViewController: UIHostingController<ShareDefaultsRootVi
     }
 }
 
-private struct ShareDefaultsRootView: View {
+struct ShareDefaultsRootView: View {
     @State private var projects: [Project] = []
     @State private var selectedProject: Project?
     @State private var tagsInput: String = UserDefaultsManagement.shareLastTags
@@ -72,10 +72,10 @@ private struct ShareDefaultsRootView: View {
                 selectedProject = initialProject()
             }
         }
-        .onChange(of: selectedProject) { newValue in
+        .onChange(of: selectedProject) { _, newValue in
             UserDefaultsManagement.shareLastProjectURL = newValue?.url
         }
-        .onChange(of: tagsInput) { newValue in
+        .onChange(of: tagsInput) { _, newValue in
             UserDefaultsManagement.shareLastTags = newValue
         }
         .alert("No Projects", isPresented: $showNoProjectsAlert) {
@@ -105,20 +105,30 @@ private struct ShareDefaultsRootView: View {
 }
 
 private struct ShareDefaultsProjectPickerView: View {
+    private struct ProjectRow: Identifiable {
+        let id: Int
+        let project: Project
+    }
+
     let projects: [Project]
     @Binding var selectedProject: Project?
 
+    private var rows: [ProjectRow] {
+        return projects.enumerated().map { ProjectRow(id: $0.offset, project: $0.element) }
+    }
+
     var body: some View {
         List {
-            ForEach(projects, id: \.url) { project in
+            SwiftUI.ForEach(rows, id: \.id) { (row: ProjectRow) in
+                let project = row.project
                 Button {
                     selectedProject = project
                 } label: {
                     HStack {
                         Text(project.label)
                         Spacer()
-                        if selectedProject == project {
-                            Image(systemName: "checkmark")
+                        if selectedProject?.label == project.label {
+                            SwiftUI.Image(systemName: "checkmark")
                                 .foregroundColor(.accentColor)
                         }
                     }

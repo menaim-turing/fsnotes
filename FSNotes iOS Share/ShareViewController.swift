@@ -360,7 +360,7 @@ class ShareViewController: SLComposeServiceViewController {
         let tags = ShareTagNormalizer.normalizedTags(from: tagsInput)
         guard !tags.isEmpty else { return }
 
-        let tagsLine = ShareTagNormalizer.tagsLine(for: tags)
+        let tagsLine = ShareTagNormalizer.formatTagsForContent(tags)
         let prefix = note.content.length == 0 ? "" : "\n\n"
         note.append(string: NSMutableAttributedString(string: "\(prefix)\(tagsLine)"))
         note.tags = tags
