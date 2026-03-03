@@ -31,6 +31,7 @@ class SettingsViewController: UITableViewController, UIDocumentPickerDelegate {
             NSLocalizedString("iCloud Drive", comment: "Settings"),
             NSLocalizedString("Add External Folder", comment: "Settings"),
             NSLocalizedString("Folders", comment: "Settings"),
+            NSLocalizedString("Share Defaults", comment: "Settings"),
             NSLocalizedString("Import Notes", comment: "Settings")
         ], [
             NSLocalizedString("Support", comment: "Settings"),
@@ -52,6 +53,7 @@ class SettingsViewController: UITableViewController, UIDocumentPickerDelegate {
             "cloud.fill",
             "externaldrive.fill.badge.plus",
             "folder.fill.badge.gearshape",
+            "square.and.arrow.up",
             "square.and.arrow.down.fill"
         ], [
             "graduationcap.fill",
@@ -74,6 +76,7 @@ class SettingsViewController: UITableViewController, UIDocumentPickerDelegate {
             ["#009bf9", "#004D7C"],
             ["#614385", "#516395"],
             ["#EA8D8D", "#A890FE"],
+            ["#2B5876", "#4E4376"],
             ["#0D7A25", "#40AD58"]
         ],
         [
@@ -84,7 +87,7 @@ class SettingsViewController: UITableViewController, UIDocumentPickerDelegate {
         ]
     ]
 
-    var rowsInSection = [6, 4, 4]
+    var rowsInSection = [6, 5, 4]
 
     override func viewWillAppear(_ animated: Bool) {
         navigationController?.navigationBar.prefersLargeTitles = true
@@ -138,7 +141,7 @@ class SettingsViewController: UITableViewController, UIDocumentPickerDelegate {
         
         var cell = SettingsTableViewCell(iconName: iconName, gradient: gradient, style: .default, reuseIdentifier: iconName)
         
-        if indexPath.section == 0x01 && indexPath.row == 0x03 {
+        if indexPath.section == 0x01 && (indexPath.row == 0x03 || indexPath.row == 0x04) {
             cell = SettingsTableViewCell(iconName: iconName, gradient: gradient, style: .subtitle, reuseIdentifier: iconName)
         }
 
@@ -164,6 +167,12 @@ class SettingsViewController: UITableViewController, UIDocumentPickerDelegate {
                 cell.accessoryType = .disclosureIndicator
             case 3:
                 cell.detailTextLabel?.textColor = UIColor.blackWhite
+                cell.detailTextLabel?.numberOfLines = 2
+                cell.detailTextLabel?.lineBreakMode = .byTruncatingTail
+                cell.detailTextLabel?.text = shareDefaultsSummary()
+                cell.accessoryType = .disclosureIndicator
+            case 4:
+                cell.detailTextLabel?.textColor = UIColor.blackWhite
                 cell.detailTextLabel?.numberOfLines = 0
                 cell.detailTextLabel?.lineBreakMode = .byWordWrapping
                 cell.detailTextLabel?.text = NSLocalizedString("Compatible with Bear and Ulysses (textbundle), markdown, txt.", comment: "")
@@ -188,6 +197,24 @@ class SettingsViewController: UITableViewController, UIDocumentPickerDelegate {
         return newImage!.withRenderingMode(.automatic)
     }
     
+    private func shareDefaultsSummary() -> String {
+        let tags = UserDefaultsManagement.shareLastTags
+        let projectLabel: String
+
+        if let url = UserDefaultsManagement.shareLastProjectURL,
+           let project = Storage.shared().getProjects().first(where: { $0.url == url }) {
+            projectLabel = project.label
+        } else {
+            projectLabel = Storage.shared().getDefault()?.label ?? NSLocalizedString("Inbox", comment: "")
+        }
+
+        let tagsLabel = tags.isEmpty
+            ? NSLocalizedString("Optional tags", comment: "Share defaults")
+            : tags
+
+        return "\(projectLabel) • \(tagsLabel)"
+    }
+
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         defer {
             tableView.deselectRow(at: indexPath, animated: false)
@@ -230,6 +257,9 @@ class SettingsViewController: UITableViewController, UIDocumentPickerDelegate {
                 lvc = ProjectsViewController()
                 break
             case 3:
+                lvc = ShareDefaultsViewController()
+                break
+            case 4:
                 var picker: UIDocumentPickerViewController
 
                 if #available(iOS 14.0, *) {
