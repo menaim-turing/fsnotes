@@ -18,12 +18,16 @@ class ShareViewController: SLComposeServiceViewController {
 
     private var hasImages = false
     private var urlPreview: String?
+    private var availableProjects: [Project] = []
+    private var selectedProject: Project?
+    private var tagsInput: String = ""
 
     // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
         configureNavigationBar()
+        loadShareConfiguration()
     }
 
     // MARK: - Configuration
@@ -41,6 +45,24 @@ class ShareViewController: SLComposeServiceViewController {
         titleLabel.text = "FSNotes"
         titleLabel.font = UserDefaultsManagement.noteFont.bold().withSize(18)
         navigationBar.topItem?.titleView = titleLabel
+    }
+
+    private func loadShareConfiguration() {
+        tagsInput = UserDefaultsManagement.shareLastTags
+        loadAvailableProjects()
+    }
+
+    private func loadAvailableProjects() {
+        let storage = Storage.shared()
+        availableProjects = storage.getProjects().filter { !$0.isTrash }
+        availableProjects.sort { $0.label.localizedCaseInsensitiveCompare($1.label) == .orderedAscending }
+
+        if let lastURL = UserDefaultsManagement.shareLastProjectURL,
+           let lastProject = availableProjects.first(where: { $0.url == lastURL }) {
+            selectedProject = lastProject
+        } else {
+            selectedProject = storage.getDefault()
+        }
     }
 
     // MARK: - Preview
@@ -131,12 +153,42 @@ class ShareViewController: SLComposeServiceViewController {
     }
 
     override func configurationItems() -> [Any]! {
-        return []
+        guard let projectItem = SLComposeSheetConfigurationItem(),
+              let tagsItem = SLComposeSheetConfigurationItem() else {
+            return []
+        }
+
+        projectItem.title = NSLocalizedString("Project", comment: "")
+
+        if availableProjects.isEmpty {
+            projectItem.value = NSLocalizedString("No projects found", comment: "")
+            projectItem.tapHandler = { [weak self] in
+                self?.showNoProjectsAlert()
+            }
+        } else {
+            projectItem.value = selectedProject?.label ?? NSLocalizedString("Inbox", comment: "")
+            projectItem.tapHandler = { [weak self] in
+                self?.showProjectPicker()
+            }
+        }
+
+        tagsItem.title = NSLocalizedString("Tags", comment: "")
+        tagsItem.value = tagsInput.isEmpty ? NSLocalizedString("Optional", comment: "") : tagsInput
+        tagsItem.tapHandler = { [weak self] in
+            self?.showTagsInput()
+        }
+
+        return [projectItem, tagsItem]
     }
 
     // MARK: - Save Note
 
     private func saveNote() {
+        guard selectedProject != nil || Storage.shared().getDefault() != nil else {
+            showNoProjectsAlert()
+            return
+        }
+
         guard let inputItems = extensionContext?.inputItems as? [NSExtensionItem] else {
             closeExtension()
             return
@@ -147,7 +199,8 @@ class ShareViewController: SLComposeServiceViewController {
     }
 
     private func createNote() -> Note {
-        let note = Note()
+        let project = selectedProject ?? Storage.shared().getDefault()!
+        let note = Note(project: project)
         Storage.shared().add(note)
 
         var urls = UserDefaultsManagement.importURLs
@@ -263,13 +316,162 @@ class ShareViewController: SLComposeServiceViewController {
     }
 
     private func finalizeNoteSave(_ note: Note) {
+        appendTagsIfNeeded(to: note)
         if note.saveSimple() {
             Storage.shared().add(note)
         }
         closeExtension()
     }
 
+    private func showNoProjectsAlert() {
+        let alert = UIAlertController(
+            title: NSLocalizedString("No Projects", comment: ""),
+            message: NSLocalizedString("Create a project in FSNotes to enable sharing.", comment: ""),
+            preferredStyle: .alert
+        )
+        alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: ""), style: .default, handler: nil))
+        present(alert, animated: true, completion: nil)
+    }
+
+    private func showProjectPicker() {
+        let controller = ShareProjectPickerViewController(
+            projects: availableProjects,
+            selectedProject: selectedProject
+        )
+        controller.onSelect = { [weak self] project in
+            self?.selectedProject = project
+            UserDefaultsManagement.shareLastProjectURL = project?.url
+            self?.reloadConfigurationItems()
+        }
+        pushConfigurationViewController(controller)
+    }
+
+    private func showTagsInput() {
+        let controller = ShareTagsInputViewController(currentTags: tagsInput)
+        controller.onSave = { [weak self] tags in
+            self?.tagsInput = tags
+            UserDefaultsManagement.shareLastTags = tags
+            self?.reloadConfigurationItems()
+        }
+        pushConfigurationViewController(controller)
+    }
+
+    private func appendTagsIfNeeded(to note: Note) {
+        let tags = normalizedTags(from: tagsInput)
+        guard !tags.isEmpty else { return }
+
+        let tagsLine = tags.map { "#\($0)" }.joined(separator: " ")
+        let prefix = note.content.length == 0 ? "" : "\n\n"
+        note.append(string: NSMutableAttributedString(string: "\(prefix)\(tagsLine)"))
+        note.tags = tags
+    }
+
+    private func normalizedTags(from input: String) -> [String] {
+        let trimmed = input.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !trimmed.isEmpty else { return [] }
+
+        let parts = trimmed.split { $0.isWhitespace || $0 == "," }
+        var tags: [String] = []
+        for raw in parts {
+            let cleaned = raw.trimmingCharacters(in: CharacterSet(charactersIn: "#"))
+            if cleaned.isEmpty { continue }
+            tags.append(cleaned)
+        }
+        return tags
+    }
+
     private func closeExtension() {
         extensionContext?.completeRequest(returningItems: extensionContext?.inputItems, completionHandler: nil)
+    }
+}
+
+private final class ShareProjectPickerViewController: UITableViewController {
+    private let projects: [Project]
+    private var selectedProject: Project?
+    var onSelect: ((Project?) -> Void)?
+
+    init(projects: [Project], selectedProject: Project?) {
+        self.projects = projects
+        self.selectedProject = selectedProject
+        super.init(style: .insetGrouped)
+        title = NSLocalizedString("Choose Project", comment: "")
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return projects.count
+    }
+
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
+        let project = projects[indexPath.row]
+        cell.textLabel?.text = project.label
+        cell.accessoryType = project == selectedProject ? .checkmark : .none
+        return cell
+    }
+
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectedProject = projects[indexPath.row]
+        onSelect?(selectedProject)
+        navigationController?.popViewController(animated: true)
+    }
+}
+
+private final class ShareTagsInputViewController: UIViewController, UITextFieldDelegate {
+    private let textField = UITextField()
+    private let currentTags: String
+    var onSave: ((String) -> Void)?
+
+    init(currentTags: String) {
+        self.currentTags = currentTags
+        super.init(nibName: nil, bundle: nil)
+        title = NSLocalizedString("Tags", comment: "")
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .systemGroupedBackground
+
+        textField.translatesAutoresizingMaskIntoConstraints = false
+        textField.borderStyle = .roundedRect
+        textField.placeholder = NSLocalizedString("e.g. work, urgent", comment: "")
+        textField.text = currentTags
+        textField.delegate = self
+        textField.autocapitalizationType = .none
+        textField.autocorrectionType = .no
+        textField.returnKeyType = .done
+
+        view.addSubview(textField)
+
+        NSLayoutConstraint.activate([
+            textField.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
+            textField.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
+            textField.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16)
+        ])
+
+        navigationItem.rightBarButtonItem = UIBarButtonItem(
+            title: NSLocalizedString("Done", comment: ""),
+            style: .done,
+            target: self,
+            action: #selector(doneTapped)
+        )
+    }
+
+    @objc private func doneTapped() {
+        let text = textField.text ?? ""
+        onSave?(text)
+        navigationController?.popViewController(animated: true)
+    }
+
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        doneTapped()
+        return true
     }
 }

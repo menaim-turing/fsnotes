@@ -37,6 +37,10 @@ public class UserDefaultsManagement {
     static var DefaultFontSize = 17
 #endif
 
+    private static var sharedDefaults: UserDefaults {
+        return shared ?? UserDefaults.standard
+    }
+
     static var DefaultSnapshotsInterval = 1
     static var DefaultSnapshotsIntervalMinutes = 5
     
@@ -107,6 +111,8 @@ public class UserDefaultsManagement {
         static let LastScreenY = "lastScreenY"
         static let LastSidebarItem = "lastSidebarItem"
         static let LastProjectURL = "lastProjectUrl"
+        static let ShareLastProjectURL = "shareLastProjectUrl"
+        static let ShareLastTags = "shareLastTags"
         static let LineHeightMultipleKey = "lineHeightMultipleKey"
         static let LineSpacingEditorKey = "lineSpacingEditor"
         static let LineWidthKey = "lineWidth"
@@ -580,6 +586,29 @@ public class UserDefaultsManagement {
         }
         set {
             shared?.set(newValue, forKey: Constants.LastProjectURL)
+        }
+    }
+
+    static var shareLastProjectURL: URL? {
+        get {
+            return sharedDefaults.url(forKey: Constants.ShareLastProjectURL)
+        }
+        set {
+            sharedDefaults.set(newValue, forKey: Constants.ShareLastProjectURL)
+        }
+    }
+
+    static var shareLastTags: String {
+        get {
+            return sharedDefaults.string(forKey: Constants.ShareLastTags) ?? ""
+        }
+        set {
+            let trimmed = newValue.trimmingCharacters(in: .whitespacesAndNewlines)
+            if trimmed.isEmpty {
+                sharedDefaults.removeObject(forKey: Constants.ShareLastTags)
+            } else {
+                sharedDefaults.set(trimmed, forKey: Constants.ShareLastTags)
+            }
         }
     }
 
