@@ -825,6 +825,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		11F2E0072F104400002E4E47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7793C671F211C6000CA39B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7679385201F21F5000F7BBF;
+			remoteInfo = "FSNotes iOS";
+		};
 		D75F333E205EC34800CC887E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D7793C671F211C6000CA39B7 /* Project object */;
@@ -981,6 +988,8 @@
 		11F018B12EF8415200F07580 /* MPreviewContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPreviewContainerView.swift; sourceTree = "<group>"; };
 		11F177192EF1E92C00CC566F /* ViewController+Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Menu.swift"; sourceTree = "<group>"; };
 		11F2D4F32F1042F4002E4E47 /* Project+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project+Date.swift"; sourceTree = "<group>"; };
+		11F2E0022F104400002E4E47 /* FSNotes_iOS_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSNotes_iOS_UITests.swift; sourceTree = "<group>"; };
+		11F2E0032F104400002E4E47 /* FSNotes iOS UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FSNotes iOS UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F389552EEA108C0008EC18 /* Mermaid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mermaid.swift; sourceTree = "<group>"; };
 		11F43F3A2F127C6900652350 /* Meet FSNotes 7.textbundle */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "Meet FSNotes 7.textbundle"; sourceTree = "<group>"; };
 		11F5D53A2EFDA17000A66466 /* modern.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = modern.icon; sourceTree = "<group>"; };
@@ -1131,8 +1140,6 @@
 		D75EE7FC2078C5460055F159 /* SidebarCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarCellView.swift; sourceTree = "<group>"; };
 		D75EE7FF2078E0C60055F159 /* SidebarItemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarItemType.swift; sourceTree = "<group>"; };
 		D75F3336205EC34800CC887E /* FSNotes iOS Share Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FSNotes iOS Share Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		11F2E0022F104400002E4E47 /* FSNotes_iOS_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSNotes_iOS_UITests.swift; sourceTree = "<group>"; };
-		11F2E0032F104400002E4E47 /* FSNotes iOS UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FSNotes iOS UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75F3338205EC34800CC887E /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		D75F333D205EC34800CC887E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D75F3344205ECE8900CC887E /* FSNotes iOS Share.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FSNotes iOS Share.entitlements"; sourceTree = "<group>"; };
@@ -1432,6 +1439,14 @@
 				11D943262E643F5E0010CC2B /* GitHubLight.swift */,
 			);
 			path = Themes;
+			sourceTree = "<group>";
+		};
+		11F2E0042F104400002E4E47 /* FSNotes iOS UITests */ = {
+			isa = PBXGroup;
+			children = (
+				11F2E0022F104400002E4E47 /* FSNotes_iOS_UITests.swift */,
+			);
+			path = "FSNotes iOS UITests";
 			sourceTree = "<group>";
 		};
 		6F13BB2320FEDE230005E120 /* FSNotesCore */ = {
@@ -2002,14 +2017,6 @@
 				D7CF7EAA29E2093C00FEC0C5 /* SecurityViewController.swift */,
 			);
 			path = Preferences;
-			sourceTree = "<group>";
-		};
-		11F2E0042F104400002E4E47 /* FSNotes iOS UITests */ = {
-			isa = PBXGroup;
-			children = (
-				11F2E0022F104400002E4E47 /* FSNotes_iOS_UITests.swift */,
-			);
-			path = "FSNotes iOS UITests";
 			sourceTree = "<group>";
 		};
 		FA35FD3BB467B0413F2F0A8A /* Pods */ = {
@@ -3319,17 +3326,12 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXContainerItemProxy section */
-		11F2E0072F104400002E4E47 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D7793C671F211C6000CA39B7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D7679385201F21F5000F7BBF;
-			remoteInfo = "FSNotes iOS";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXTargetDependency section */
+		11F2E0092F104400002E4E47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7679385201F21F5000F7BBF /* FSNotes iOS */;
+			targetProxy = 11F2E0072F104400002E4E47 /* PBXContainerItemProxy */;
+		};
 		D70B1FA52920DA6A003923DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			productRef = D70B1FA42920DA6A003923DC /* SoulverCore */;
@@ -3342,11 +3344,6 @@
 			isa = PBXTargetDependency;
 			target = D75F3335205EC34800CC887E /* FSNotes iOS Share Extension */;
 			targetProxy = D75F333E205EC34800CC887E /* PBXContainerItemProxy */;
-		};
-		11F2E0092F104400002E4E47 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D7679385201F21F5000F7BBF /* FSNotes iOS */;
-			targetProxy = 11F2E0072F104400002E4E47 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -3369,7 +3366,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 332;
-				DEVELOPMENT_TEAM = 9827F3T388;
+				DEVELOPMENT_TEAM = 738A487SP4;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 7.1.1;
@@ -3388,7 +3385,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 332;
-				DEVELOPMENT_TEAM = 9827F3T388;
+				DEVELOPMENT_TEAM = 738A487SP4;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 7.1.1;
@@ -3410,7 +3407,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 332;
-				DEVELOPMENT_TEAM = 9827F3T388;
+				DEVELOPMENT_TEAM = 738A487SP4;
 				INFOPLIST_FILE = "FSNotes iOS Share/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3444,7 +3441,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 332;
-				DEVELOPMENT_TEAM = 9827F3T388;
+				DEVELOPMENT_TEAM = 738A487SP4;
 				ENABLE_NS_ASSERTIONS = NO;
 				INFOPLIST_FILE = "FSNotes iOS Share/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -3484,7 +3481,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 332;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 9827F3T388;
+				DEVELOPMENT_TEAM = 738A487SP4;
 				INFOPLIST_FILE = "FSNotes iOS/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -3524,7 +3521,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 332;
-				DEVELOPMENT_TEAM = 9827F3T388;
+				DEVELOPMENT_TEAM = 738A487SP4;
 				ENABLE_NS_ASSERTIONS = NO;
 				INFOPLIST_FILE = "FSNotes iOS/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
@@ -3760,7 +3757,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 706;
-				DEVELOPMENT_TEAM = 9827F3T388;
+				DEVELOPMENT_TEAM = 738A487SP4;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -3801,7 +3798,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 706;
 				DEPLOYMENT_LOCATION = NO;
-				DEVELOPMENT_TEAM = 9827F3T388;
+				DEVELOPMENT_TEAM = 738A487SP4;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
