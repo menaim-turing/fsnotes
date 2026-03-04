@@ -286,16 +286,14 @@ class ViewController: UIViewController, UISearchBarDelegate, UIGestureRecognizer
     }
 
     public func configureNotifications() {
-        NotificationCenter.default.addObserver(self,
-            selector: #selector(ubiquitousKeyValueStoreDidChange(_:)),
-            name: NSUbiquitousKeyValueStore.didChangeExternallyNotification,
-            object: NSUbiquitousKeyValueStore.default)
-
-        if NSUbiquitousKeyValueStore.default.synchronize() == false {
-            fatalError("This app was not built with the proper entitlement requests.")
+        // Only set up iCloud sync when entitlements are available (synchronize succeeds)
+        if NSUbiquitousKeyValueStore.default.synchronize() {
+            NotificationCenter.default.addObserver(self,
+                selector: #selector(ubiquitousKeyValueStoreDidChange(_:)),
+                name: NSUbiquitousKeyValueStore.didChangeExternallyNotification,
+                object: NSUbiquitousKeyValueStore.default)
+            NSUbiquitousKeyValueStore.default.synchronize()
         }
-        
-        NSUbiquitousKeyValueStore.default.synchronize()
 
         NotificationCenter.default.addObserver(self, selector: #selector(preferredContentSizeChanged), name: UIContentSizeCategory.didChangeNotification, object: nil)
 
