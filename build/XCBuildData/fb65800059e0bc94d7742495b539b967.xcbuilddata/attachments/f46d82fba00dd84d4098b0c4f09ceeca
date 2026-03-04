@@ -1,0 +1,119 @@
+{
+  "" : {
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Shout-primary.dia",
+    "emit-module-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Shout-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Shout-primary-emit-module.dia",
+    "pch" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Shout-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Shout-primary.swiftdeps"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/Sources/Shout/Agent.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Agent.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Agent.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Agent.dia",
+    "index-unit-output-path" : "/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Agent.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Agent.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Agent.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Agent.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Agent~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/Sources/Shout/Channel.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Channel.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Channel.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Channel.dia",
+    "index-unit-output-path" : "/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Channel.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Channel.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Channel.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Channel.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Channel~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/Sources/Shout/FileAttributes.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FileAttributes.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FileAttributes.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FileAttributes.dia",
+    "index-unit-output-path" : "/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FileAttributes.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FileAttributes.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FileAttributes.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FileAttributes.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FileAttributes~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/Sources/Shout/FilePermissions.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FilePermissions.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FilePermissions.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FilePermissions.dia",
+    "index-unit-output-path" : "/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FilePermissions.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FilePermissions.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FilePermissions.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FilePermissions.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FilePermissions~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/Sources/Shout/FileType.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FileType.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FileType.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FileType.dia",
+    "index-unit-output-path" : "/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FileType.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FileType.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FileType.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FileType.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/FileType~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/Sources/Shout/ReadWrite.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/ReadWrite.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/ReadWrite.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/ReadWrite.dia",
+    "index-unit-output-path" : "/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/ReadWrite.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/ReadWrite.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/ReadWrite.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/ReadWrite.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/ReadWrite~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/Sources/Shout/SFTP.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SFTP.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SFTP.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SFTP.dia",
+    "index-unit-output-path" : "/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SFTP.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SFTP.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SFTP.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SFTP.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SFTP~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/Sources/Shout/SSH.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSH.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSH.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSH.dia",
+    "index-unit-output-path" : "/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSH.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSH.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSH.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSH.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSH~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/Sources/Shout/SSHAuthMethod.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSHAuthMethod.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSHAuthMethod.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSHAuthMethod.dia",
+    "index-unit-output-path" : "/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSHAuthMethod.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSHAuthMethod.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSHAuthMethod.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSHAuthMethod.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSHAuthMethod~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/Sources/Shout/SSHError.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSHError.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSHError.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSHError.dia",
+    "index-unit-output-path" : "/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSHError.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSHError.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSHError.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSHError.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/SSHError~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/Sources/Shout/Session.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Session.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Session.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Session.dia",
+    "index-unit-output-path" : "/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Session.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Session.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Session.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Session.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/Shout/build/Shout.build/Debug-iphonesimulator/Shout.build/Objects-normal/arm64/Session~partial.swiftmodule"
+  }
+}

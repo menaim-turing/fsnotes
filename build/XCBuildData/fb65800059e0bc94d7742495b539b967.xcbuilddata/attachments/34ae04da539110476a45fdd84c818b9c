@@ -1,0 +1,219 @@
+{
+  "" : {
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Git-primary.dia",
+    "emit-module-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Git-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Git-primary-emit-module.dia",
+    "pch" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Git-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Git-primary.swiftdeps"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/Sources/Git/AnyGitObject.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/AnyGitObject.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/AnyGitObject.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/AnyGitObject.dia",
+    "index-unit-output-path" : "/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/AnyGitObject.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/AnyGitObject.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/AnyGitObject.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/AnyGitObject.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/AnyGitObject~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/Sources/Git/AnyReference.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/AnyReference.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/AnyReference.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/AnyReference.dia",
+    "index-unit-output-path" : "/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/AnyReference.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/AnyReference.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/AnyReference.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/AnyReference.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/AnyReference~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/Sources/Git/Blob.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Blob.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Blob.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Blob.dia",
+    "index-unit-output-path" : "/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Blob.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Blob.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Blob.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Blob.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Blob~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/Sources/Git/Branch.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Branch.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Branch.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Branch.dia",
+    "index-unit-output-path" : "/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Branch.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Branch.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Branch.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Branch.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Branch~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/Sources/Git/Commit.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Commit.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Commit.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Commit.dia",
+    "index-unit-output-path" : "/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Commit.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Commit.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Commit.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Commit.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Commit~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/Sources/Git/Credential.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Credential.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Credential.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Credential.dia",
+    "index-unit-output-path" : "/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Credential.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Credential.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Credential.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Credential.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Credential~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/Sources/Git/Exports.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Exports.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Exports.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Exports.dia",
+    "index-unit-output-path" : "/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Exports.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Exports.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Exports.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Exports.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Exports~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/Sources/Git/FetchDelegate.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/FetchDelegate.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/FetchDelegate.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/FetchDelegate.dia",
+    "index-unit-output-path" : "/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/FetchDelegate.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/FetchDelegate.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/FetchDelegate.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/FetchDelegate.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/FetchDelegate~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/Sources/Git/GitError.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/GitError.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/GitError.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/GitError.dia",
+    "index-unit-output-path" : "/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/GitError.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/GitError.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/GitError.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/GitError.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/GitError~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/Sources/Git/GitObject.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/GitObject.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/GitObject.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/GitObject.dia",
+    "index-unit-output-path" : "/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/GitObject.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/GitObject.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/GitObject.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/GitObject.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/GitObject~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/Sources/Git/Index.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Index.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Index.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Index.dia",
+    "index-unit-output-path" : "/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Index.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Index.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Index.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Index.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Index~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/Sources/Git/ManagedGitObject.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedGitObject.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedGitObject.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedGitObject.dia",
+    "index-unit-output-path" : "/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedGitObject.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedGitObject.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedGitObject.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedGitObject.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedGitObject~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/Sources/Git/ManagedGitPointer.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedGitPointer.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedGitPointer.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedGitPointer.dia",
+    "index-unit-output-path" : "/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedGitPointer.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedGitPointer.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedGitPointer.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedGitPointer.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedGitPointer~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/Sources/Git/ManagedReference.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedReference.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedReference.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedReference.dia",
+    "index-unit-output-path" : "/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedReference.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedReference.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedReference.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedReference.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ManagedReference~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/Sources/Git/Reference.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Reference.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Reference.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Reference.dia",
+    "index-unit-output-path" : "/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Reference.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Reference.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Reference.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Reference.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Reference~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/Sources/Git/Remote.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Remote.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Remote.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Remote.dia",
+    "index-unit-output-path" : "/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Remote.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Remote.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Remote.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Remote.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Remote~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/Sources/Git/Repository.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Repository.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Repository.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Repository.dia",
+    "index-unit-output-path" : "/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Repository.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Repository.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Repository.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Repository.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Repository~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/Sources/Git/ResetType.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ResetType.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ResetType.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ResetType.dia",
+    "index-unit-output-path" : "/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ResetType.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ResetType.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ResetType.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ResetType.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/ResetType~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/Sources/Git/StringExtensions.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/StringExtensions.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/StringExtensions.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/StringExtensions.dia",
+    "index-unit-output-path" : "/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/StringExtensions.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/StringExtensions.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/StringExtensions.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/StringExtensions.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/StringExtensions~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/Sources/Git/TransferProgress.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/TransferProgress.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/TransferProgress.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/TransferProgress.dia",
+    "index-unit-output-path" : "/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/TransferProgress.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/TransferProgress.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/TransferProgress.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/TransferProgress.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/TransferProgress~partial.swiftmodule"
+  },
+  "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/Sources/Git/Tree.swift" : {
+    "const-values" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Tree.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Tree.d",
+    "diagnostics" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Tree.dia",
+    "index-unit-output-path" : "/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Tree.o",
+    "llvm-bc" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Tree.bc",
+    "object" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Tree.o",
+    "swift-dependencies" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Tree.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-git/build/swift-git.build/Debug-iphonesimulator/Git.build/Objects-normal/arm64/Tree~partial.swiftmodule"
+  }
+}

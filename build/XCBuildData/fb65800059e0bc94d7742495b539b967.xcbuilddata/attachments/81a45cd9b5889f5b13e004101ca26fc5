@@ -1,0 +1,206 @@
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/diff/DiffEntry.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/commit/Commit.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/tag/Tags.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Extensions/UIApplication+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/ProgressState.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/remote/Remote.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Clojure.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/authentication/PasswordAuthentication.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/status/Statuses.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/FSParser.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Html.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Preferences/ExternalViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/Markdown.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/NSMutableAttributedString+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Themes/SolarizedDark.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Themes/SolarizedLight.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/authentication/KeyAuthentication.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/reference/Reference+Target.swift
+/Users/khalidgad/Documents/Untitled/FSNotes/Helpers/UserDataService.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/NoteAttachment.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/UndoData.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/revision/FileHistoryIterator.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Helpers/SingleTouchDownGestureRecognizer.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Note+History.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/KeychainPasswordItem.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Helpers/ShortcutIdentifier.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Helpers/FolderPopoverActions.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/repository/Repository+Lookup.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Preferences/SettingsEditorViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/branch/BranchesIterator.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/branch/Branches.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Helpers/SandboxBookmark.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/AttributedBox.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Swift.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/commons/Blob.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/Project+Date.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/SidebarItem.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/NSAttributedStringKey+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/commons/Signature.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/ApiResponse.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/tree/Tree.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/commons/Object.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/SortDirection.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/ImageFormat.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/RevisionsViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/TextBundleInfo.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/DateFormatter+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/Note+Preview.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Preferences/FontViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Extensions/UIBarButtonItem+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Scala.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Preferences/CodeThemeViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Helpers/Sidebar.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/SceneDelegate.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Extensions/UITextView+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/index/Index+Files.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/commons/Strings.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Matlab.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Theme.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/ImagesProcessor.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/head/Head.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Extensions/UIFont+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/JavaScript.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/NotesTextProcessor.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Dart.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/NoteContainer.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/View/SidebarTableCellView.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/FSTag.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/NSAttributedString+.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Preferences/SidebarViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/TypeScript.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Extensions/UIImage+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/commons/Errors.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/NSTextStorage++.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/URL+Image.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/commons/ConfigManager.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/R.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/repository/RepositoryManager.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Cpp.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/index/Index.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/commons/Progress.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/ViewController+More.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Sql.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/reference/Reference.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/branch/Branch.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/head/Head+Merge.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/CodeBlockDetector.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/repository/Repository+Commit.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/tree/TreeEntry.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/View/EditorSelectionRect.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Css.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Lua.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Themes/GitHubDark.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Kotlin.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/URL+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/FileManager+.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/View/NotesTableView.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/NameHelper.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Preferences/SecurityViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/Note.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Themes/GitHubLight.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Preferences/SettingsTableViewCell.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Preferences/SettingsViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/EditorViewController+QuickLook.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Helpers/SingleImageTouchDownGestureRecognizer.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/index/Index+Commit.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Preferences/SortByViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/commons/Wrapper.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Preferences/CodeFontViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/MoveViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Preferences/LanguageViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/C.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/MPreviewView.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/AppearanceType.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Lisp.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/Data+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Themes/AtomOneLight.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Rust.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/UserDefaultsManagement.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/SidebarItemType.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Preferences/DefaultExtensionControllerView.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/TextFormatter.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/ViewController+WebApi.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Mermaid.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Preferences/ProjectsViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/NoteType.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/String+Punycode.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Preferences/GitTableViewCell.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Java.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/head/Head+Checkout.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/NSTextAttachment+.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/MainNavigationController.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Ruby.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/String+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Bash.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/SearchQuery.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/EditorViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/authentication/Authentication.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/SortBy.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Python.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/Date+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Groovy.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/Storage.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Platform.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Perl.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Shell.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/commons/Error.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/tag/Tag.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/ObjectiveC.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/Storage+Git.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/diff/Diff.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/NoteMeta.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/commons/OID.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Helpers/Buttons.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/tag/TagIterator.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Themes/AtomOneDark.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/Project+Git.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Helpers/CloudDriveManager.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/NoteCellView+.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/ViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Preferences/ProjectSettingsViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/repository/Repository+Open.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/SettingsFilesNaming.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Preferences/ThanksViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/EditorViewController+Search.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/StorageType.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Erlang.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/PreviewState.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/RepositoryAction.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/NSRange+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/Pasteboard.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/NSTextCheckingResult+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Assembly.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/repository/Repository.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/status/Status.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Scratch.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Php.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/SwiftHighlighter.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Preferences/AppIconViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Haskell.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/commons/StaticSshKeyDelegate.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/DatePickerViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/TextStorageProcessor.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Extensions/UserDefaultsManagement+.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Extensions/UIColor+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Vb.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/ProjectSettings.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/AppDelegate.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/KeychainConfiguration.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Csharp.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/View/NoteCellView.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/View/ImageScrollView.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Preferences/GitViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/RuntimeError.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/LanguageType.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/status/StatusIterator.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/ImagePreviewViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/HtmlExtractor.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Languages/Go.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Preferences/ProViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/View/EditTextView.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/remote/Remotes.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/View/SidebarTableView.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Git/revision/RevisionIterator.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/Project.swift
+/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes\ iOS.build/DerivedSources/GeneratedAssetSymbols.swift

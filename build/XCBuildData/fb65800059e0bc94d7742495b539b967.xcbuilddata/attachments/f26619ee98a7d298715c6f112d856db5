@@ -1,0 +1,19 @@
+{
+  "" : {
+    "diagnostics" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS UITests.build/Objects-normal/x86_64/FSNotes iOS UITests-primary.dia",
+    "emit-module-dependencies" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS UITests.build/Objects-normal/x86_64/FSNotes iOS UITests-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS UITests.build/Objects-normal/x86_64/FSNotes iOS UITests-primary-emit-module.dia",
+    "pch" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS UITests.build/Objects-normal/x86_64/FSNotes iOS UITests-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS UITests.build/Objects-normal/x86_64/FSNotes iOS UITests-primary.swiftdeps"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotes iOS UITests/FSNotes_iOS_UITests.swift" : {
+    "const-values" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS UITests.build/Objects-normal/x86_64/FSNotes_iOS_UITests.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS UITests.build/Objects-normal/x86_64/FSNotes_iOS_UITests.d",
+    "diagnostics" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS UITests.build/Objects-normal/x86_64/FSNotes_iOS_UITests.dia",
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS UITests.build/Objects-normal/x86_64/FSNotes_iOS_UITests.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS UITests.build/Objects-normal/x86_64/FSNotes_iOS_UITests.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS UITests.build/Objects-normal/x86_64/FSNotes_iOS_UITests.o",
+    "swift-dependencies" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS UITests.build/Objects-normal/x86_64/FSNotes_iOS_UITests.swiftdeps",
+    "swiftmodule" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS UITests.build/Objects-normal/x86_64/FSNotes_iOS_UITests~partial.swiftmodule"
+  }
+}

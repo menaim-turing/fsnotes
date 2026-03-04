@@ -1,0 +1,46 @@
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/Project+Date.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Extensions/UIFont+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/TextBundleInfo.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/String+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/ProjectSettings.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/RepositoryAction.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/ProgressState.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/FileManager+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/KeychainPasswordItem.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/Date+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/SortBy.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/PreviewState.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/StorageType.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/ImagesProcessor.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/Data+.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Extensions/UIColor+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/SearchQuery.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Platform.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/LanguageType.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/NoteType.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/UserDefaultsManagement.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS\ Share/NSMutableAttributedString+.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS\ Share/ShareViewController.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/SortDirection.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/Note.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/NSAttributedString+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/URL+.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Helpers/SandboxBookmark.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/DateFormatter+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/Note+Preview.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/NoteMeta.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/ImageFormat.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/SidebarItemType.swift
+/Users/khalidgad/Documents/Untitled/FSNotes/Helpers/UserDataService.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/Storage.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/NSTextCheckingResult+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/Project.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/NSAttributedStringKey+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/FSParser.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/NameHelper.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/KeychainConfiguration.swift
+/Users/khalidgad/Documents/Untitled/FSNotes\ iOS/Extensions/UserDefaultsManagement+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/URL+Image.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/SettingsFilesNaming.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/NSRange+.swift
+/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/NoteContainer.swift

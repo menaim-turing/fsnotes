@@ -1,0 +1,241 @@
+{
+  "" : {
+    "const-values" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/FSNotes iOS Share Extension-primary.swiftconstvalues",
+    "dependencies" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/FSNotes iOS Share Extension-primary.d",
+    "diagnostics" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/FSNotes iOS Share Extension-primary.dia",
+    "emit-module-dependencies" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/FSNotes iOS Share Extension-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/FSNotes iOS Share Extension-primary-emit-module.dia",
+    "pch" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/FSNotes iOS Share Extension-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/FSNotes iOS Share Extension-primary.swiftdeps"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotes iOS Share/NSMutableAttributedString+.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NSMutableAttributedString+.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NSMutableAttributedString+.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NSMutableAttributedString+.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotes iOS Share/ShareViewController.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/ShareViewController.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/ShareViewController.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/ShareViewController.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotes iOS/Extensions/UIColor+.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/UIColor+.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/UIColor+.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/UIColor+.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotes iOS/Extensions/UIFont+.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/UIFont+.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/UIFont+.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/UIFont+.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotes iOS/Extensions/UserDefaultsManagement+.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/UserDefaultsManagement+.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/UserDefaultsManagement+.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/UserDefaultsManagement+.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotes iOS/Helpers/SandboxBookmark.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/SandboxBookmark.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/SandboxBookmark.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/SandboxBookmark.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotes/Helpers/UserDataService.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/UserDataService.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/UserDataService.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/UserDataService.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/ImageFormat.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/ImageFormat.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/ImageFormat.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/ImageFormat.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/LanguageType.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/LanguageType.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/LanguageType.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/LanguageType.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/Note+Preview.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Note+Preview.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Note+Preview.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Note+Preview.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/Note.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Note.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Note.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Note.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/NoteContainer.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NoteContainer.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NoteContainer.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NoteContainer.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/NoteType.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NoteType.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NoteType.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NoteType.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/PreviewState.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/PreviewState.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/PreviewState.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/PreviewState.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/ProgressState.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/ProgressState.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/ProgressState.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/ProgressState.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/Project+Date.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Project+Date.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Project+Date.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Project+Date.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/Project.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Project.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Project.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Project.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/ProjectSettings.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/ProjectSettings.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/ProjectSettings.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/ProjectSettings.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/SearchQuery.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/SearchQuery.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/SearchQuery.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/SearchQuery.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/SettingsFilesNaming.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/SettingsFilesNaming.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/SettingsFilesNaming.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/SettingsFilesNaming.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/SidebarItemType.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/SidebarItemType.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/SidebarItemType.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/SidebarItemType.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/SortBy.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/SortBy.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/SortBy.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/SortBy.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/SortDirection.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/SortDirection.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/SortDirection.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/SortDirection.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/Storage.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Storage.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Storage.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Storage.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/StorageType.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/StorageType.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/StorageType.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/StorageType.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Business/TextBundleInfo.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/TextBundleInfo.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/TextBundleInfo.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/TextBundleInfo.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/Data+.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Data+.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Data+.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Data+.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/Date+.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Date+.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Date+.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Date+.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/DateFormatter+.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/DateFormatter+.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/DateFormatter+.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/DateFormatter+.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/FileManager+.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/FileManager+.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/FileManager+.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/FileManager+.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/NSAttributedString+.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NSAttributedString+.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NSAttributedString+.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NSAttributedString+.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/NSAttributedStringKey+.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NSAttributedStringKey+.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NSAttributedStringKey+.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NSAttributedStringKey+.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/NSRange+.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NSRange+.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NSRange+.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NSRange+.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/NSTextCheckingResult+.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NSTextCheckingResult+.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NSTextCheckingResult+.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NSTextCheckingResult+.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/String+.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/String+.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/String+.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/String+.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/URL+.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/URL+.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/URL+.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/URL+.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/Extensions/URL+Image.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/URL+Image.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/URL+Image.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/URL+Image.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/FSParser.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/FSParser.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/FSParser.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/FSParser.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/ImagesProcessor.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/ImagesProcessor.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/ImagesProcessor.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/ImagesProcessor.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/KeychainConfiguration.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/KeychainConfiguration.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/KeychainConfiguration.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/KeychainConfiguration.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/KeychainPasswordItem.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/KeychainPasswordItem.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/KeychainPasswordItem.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/KeychainPasswordItem.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/NameHelper.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NameHelper.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NameHelper.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NameHelper.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/NoteMeta.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NoteMeta.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NoteMeta.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/NoteMeta.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/RepositoryAction.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/RepositoryAction.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/RepositoryAction.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/RepositoryAction.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/SwiftHighlighter/Platform.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Platform.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Platform.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/Platform.o"
+  },
+  "/Users/khalidgad/Documents/Untitled/FSNotesCore/UserDefaultsManagement.swift" : {
+    "index-unit-output-path" : "/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/UserDefaultsManagement.o",
+    "llvm-bc" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/UserDefaultsManagement.bc",
+    "object" : "/Users/khalidgad/Documents/Untitled/build/FSNotes.build/Debug-iphonesimulator/FSNotes iOS Share Extension.build/Objects-normal/arm64/UserDefaultsManagement.o"
+  }
+}

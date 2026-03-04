@@ -1,0 +1,4 @@
+module Shout {
+header "Shout-Swift.h"
+export *
+}

@@ -1,0 +1,38 @@
+Target dependency graph (16 targets)
+Target 'FSNotes iOS UITests' in project 'FSNotes'
+➜ Explicit dependency on target 'FSNotes iOS' in project 'FSNotes'
+Target 'FSNotes iOS' in project 'FSNotes'
+➜ Explicit dependency on target 'FSNotes iOS Share Extension' in project 'FSNotes'
+➜ Explicit dependency on target 'Git' in project 'swift-git'
+➜ Explicit dependency on target 'Shout' in project 'Shout'
+Target 'Shout' in project 'Shout'
+➜ Explicit dependency on target 'Shout' in project 'Shout'
+➜ Explicit dependency on target 'Socket' in project 'Socket'
+➜ Explicit dependency on target 'CSSH' in project 'CSSH'
+Target 'Shout' in project 'Shout'
+➜ Explicit dependency on target 'Socket' in project 'Socket'
+➜ Explicit dependency on target 'CSSH' in project 'CSSH'
+Target 'CSSH' in project 'CSSH' (no dependencies)
+Target 'Socket' in project 'Socket'
+➜ Explicit dependency on target 'Socket' in project 'Socket'
+Target 'Socket' in project 'Socket' (no dependencies)
+Target 'Git' in project 'swift-git'
+➜ Explicit dependency on target 'Git' in project 'swift-git'
+➜ Explicit dependency on target 'swift_git_init' in project 'swift-git'
+➜ Explicit dependency on target 'Cgit2' in project 'swift-cgit2'
+➜ Explicit dependency on target 'SystemPackage' in project 'swift-system'
+Target 'swift_git_init' in project 'swift-git'
+➜ Explicit dependency on target 'Cgit2' in project 'swift-cgit2'
+Target 'Git' in project 'swift-git'
+➜ Explicit dependency on target 'Cgit2' in project 'swift-cgit2'
+➜ Explicit dependency on target 'SystemPackage' in project 'swift-system'
+Target 'SystemPackage' in project 'swift-system'
+➜ Explicit dependency on target 'SystemPackage' in project 'swift-system'
+➜ Explicit dependency on target 'CSystem' in project 'swift-system'
+Target 'SystemPackage' in project 'swift-system'
+➜ Explicit dependency on target 'CSystem' in project 'swift-system'
+Target 'CSystem' in project 'swift-system' (no dependencies)
+Target 'Cgit2' in project 'swift-cgit2'
+➜ Explicit dependency on target 'Cgit2' in project 'swift-cgit2'
+Target 'Cgit2' in project 'swift-cgit2' (no dependencies)
+Target 'FSNotes iOS Share Extension' in project 'FSNotes' (no dependencies)

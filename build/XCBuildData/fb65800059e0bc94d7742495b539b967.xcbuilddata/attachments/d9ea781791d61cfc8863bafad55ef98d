@@ -1,0 +1,3 @@
+#!/bin/sh
+"${PODS_ROOT}/Target Support Files/Pods-FSNotes iOS/Pods-FSNotes iOS-frameworks.sh"
+

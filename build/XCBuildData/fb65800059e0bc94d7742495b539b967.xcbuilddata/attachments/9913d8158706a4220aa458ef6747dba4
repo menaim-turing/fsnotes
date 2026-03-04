@@ -1,0 +1,4 @@
+module Cgit2 {
+umbrella header "/Users/khalidgad/Library/Developer/Xcode/DerivedData/FSNotes-giqmctmgtlkfeyhjhblcwzykcnct/SourcePackages/checkouts/swift-cgit2/Sources/Cgit2/include/Cgit2.h"
+export *
+}

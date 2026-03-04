@@ -1,0 +1,4 @@
+module Git {
+header "Git-Swift.h"
+export *
+}
